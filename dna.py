@@ -11,7 +11,6 @@ nucleobases = {
 with open('data/rosalind_dna.txt', 'r') as f1:
     dna = f1.read()
     # Using dictionary
-
     for l in dna:
         if l in nucleobases.keys():
             nucleobases[l] += 1
